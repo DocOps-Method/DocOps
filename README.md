@@ -1,2 +1,2 @@
-# docops
-The Source Code for the website https://docops.info
+# Docops - Method
+The Source Code of the website https://docops.info
