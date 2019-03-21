@@ -1,0 +1,34 @@
+baseURL = "https://docops.info/"
+languageCode = "en-us"
+title = "DocOps"
+theme = "hugo-whisper-theme"
+
+# [[menu.main]]
+#     name = "Home"
+#     url = "/"
+#     weight = 1
+
+# [[menu.main]]
+#     name = "Docs"
+#     url = "/docs/"
+#     weight = 2
+
+[params]  
+  google_analytics_id=""
+  mainSections = ["docs"]
+  homepage_intro = "DocOps describes the method of using human readable and editable plain text documentation as source for applying changes in another system. By keeping both parts in sync, the documentation becomes the single source of truth for both humans and computers."
+  homepage_button_text = "Explore DocOps"
+  homepage_button_link = 'https://github.com/DocOps-Method/DocOps'
+  [params.homepage_meta_tags]
+    meta_description = "Hugo Whisper is a documentation theme built with Hugo."
+    meta_og_title = "DocOps"
+    meta_og_type = "website"
+    meta_og_url = "https://docops.info/"
+    meta_og_image = "https://raw.githubusercontent.com/JugglerX/hugo-whisper-theme/master/images/tn.png"
+    meta_og_description = "Hugo Whisper is a documentation theme built with Hugo."
+    meta_twitter_card = "summary"
+    meta_twitter_site = "@zerostaticio"
+    meta_twitter_creator = "@zerostaticio"
+[author]
+  name = "DocOps Community"
+  homepage = "https://docops.info"
